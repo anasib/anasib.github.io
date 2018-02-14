@@ -1,0 +1,114 @@
+
+    body {
+        background: #ededed;
+        width: 960px;
+        margin: auto;
+        display: block;
+    }
+
+    #bigContainer {
+        width: 960px;
+        position: relative;
+        overflow: hidden;
+        background: white;
+    }
+
+    #topLeft {
+        width: 166px;
+        float: left;
+        position: relative;
+        text-align: left;
+        padding: 20px;
+        background: lightseagreen;
+    }
+
+    #topLeft ul {
+        position: relative;
+        float: left; 
+        padding: 17px;
+    }
+
+    #topLeft ul li {
+        list-style-type: none;
+        display: inline;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #topRight ul {
+        position: relative;
+        float: right;
+        padding: 40px;
+    }
+
+    #topRight ul li {
+        list-style-type: none;
+        display: inline;
+        color: gray;
+        font-size: 20px;
+    }
+
+    #topRight li:not(:first-child):before {
+        content: " | ";
+        padding: 10px;
+    }
+
+    .container {
+        width: 650px;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        color: gray;
+    }
+
+    h2 {
+        padding: 10px;
+        border-bottom: groove;
+        color: lightseagreen;
+    }
+
+    .image {
+        float: left;
+        margin: 4px;
+    }
+
+    #contact {
+        width: 270px;
+        position: relative;
+        float: right;
+        background: white;
+    }
+
+    /* #connect ul {
+        list-style-type: none;
+        color: lightseagreen;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    } */
+
+    h3 {
+        margin: auto;
+        text-align: center;
+        width: 200px;
+        padding: 10px;
+        border-bottom: groove;
+        color: lightseagreen;
+
+    }
+
+    #socialMedia {
+        position: relative;
+        padding: 10px;
+        bottom: 400px;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        color: gray;
+
+    }
+
+    #socialMedia img {
+        width: 50px;
+        height: 50px;
+    }
