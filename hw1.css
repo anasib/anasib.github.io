@@ -35,20 +35,22 @@
         font-weight: bold;
     }
 
-    #topRight ul {
+    #topRight nav {
         position: relative;
         float: right;
-        padding: 40px;
+        padding: 55px;
+        font-size: 20px;
+        color: gray;
     }
 
-    #topRight ul li {
+    /* #topRight nav {
         list-style-type: none;
         display: inline;
         color: gray;
         font-size: 20px;
-    }
+    } */
 
-    #topRight li:not(:first-child):before {
+    #topRight a:not(:first-child):before {
         content: " | ";
         padding: 10px;
     }
