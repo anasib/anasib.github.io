@@ -132,6 +132,7 @@
         background: gray;
         padding: 2em;
         text-align: center;
+        border-top: 10px solid #4aaaa5;
     }
 
     .copyright {
