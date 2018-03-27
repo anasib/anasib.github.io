@@ -1,3 +1,122 @@
-h1 {
-    color: orange;
+body {
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/circles-light.png);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-default {
+    height: 0px;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    line-height: 4.5em;
+    background: lightseagreen;
+}
+
+.about-me-container {
+    padding: 15px;
+    background-color: #ffffff;
+    color: lightseagreen;
+}
+
+.about-me {
+    border-bottom: groove;
+
+}
+
+#bio {
+    box-sizing: border-box;
+    border-color: lightgray;
+}
+
+#aboutMeParagraph {
+    width: auto;
+    padding: 10px;;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: gray;
+}
+
+.my-image {
+    padding: 10px;
+    float: left;
+    margin: 6px;
+}
+
+#contactImages {
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    float: left;
+}
+
+.navbar-collapse.collapse {
+    display: block;
+}
+
+.media-column {
+    background-color: #ffffff;
+    width: 20%;
+}
+
+.media-column h2 {
+    border-bottom: groove;
+    padding: 10px;
+    color: lightseagreen;
+}
+
+.footer {
+    position: fixed;
+    display: block;
+    background: gray;
+    padding: 2em;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+    width: 100%;
+    bottom: 0%;
+    clear: both;
+}
+
+.portfolio-container {
+    padding: 15px;
+    background-color: #ffffff;
+    color: lightseagreen;
+}
+
+.portfolio {
+    border-bottom: groove;
+}
+
+.contact-container {
+    padding: 15px;
+    background-color: #ffffff;
+    color: lightseagreen;
+}
+
+.contact {
+    border-bottom: groove;
+}
+
+#contactTags {
+    color: gray;
+}
+
+input {
+    width: 100%;
+    
+}
+
+#submitButton {
+    float: left;
+    margin: 8px 0;
+    background-color: lightseagreen;
+    color: white;
+}
+
+#message {
+    height: 25%; 
 }
